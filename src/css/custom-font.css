@@ -1,0 +1,19 @@
+	@font-face {
+    font-family: 'AmericanTypewriterRegular';
+    src: url('../fonts/AmericanTypewriterRegular.eot');
+    src: url('../fonts/AmericanTypewriterRegular.eot') format('embedded-opentype'),
+         url('../fonts/AmericanTypewriterRegular.woff2') format('woff2'),
+         url('../fonts/AmericanTypewriterRegular.woff') format('woff'),
+         url('../fonts/AmericanTypewriterRegular.ttf') format('truetype'),
+         url('../fonts/AmericanTypewriterRegular.svg#AmericanTypewriterRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'ArialBlack';
+    src: url('../fonts/ArialBlack.eot');
+    src: url('../fonts/ArialBlack.eot') format('embedded-opentype'),
+         url('../fonts/ArialBlack.woff2') format('woff2'),
+         url('../fonts/ArialBlack.woff') format('woff'),
+         url('../fonts/ArialBlack.ttf') format('truetype'),
+         url('../fonts/ArialBlack.svg#ArialBlack') format('svg');
+}

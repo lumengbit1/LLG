@@ -1,0 +1,14 @@
+.maintenanceDialog {
+}
+
+.maintenancePaper {
+  background: initial !important;
+}
+
+.maintenanceContent {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,127 @@
+.notify-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+  /* align-content: flex-end; */
+  height:100%;
+  position: relative;
+/*  top: 0;
+  right: 0;*/
+}
+
+/* .notify-item {
+  width: 120px;
+  padding: 5px 10px;
+  color: #FFF;
+  animation: flyUp 2s linear;
+} */
+
+/* @keyframes flyUp {
+  0%: { margin-top:0px; },
+  100%: { margin-top:-100%; }
+} */
+/*
+.notify-item:hover { */
+  /* opacity: 0.8; */
+  /* box-shadow: 0 0 10px 0 rgba(15, 15, 15, 0);
+} */
+
+.notify-item > p {
+  font-family: 'Arial', serif;
+  font-size: 8px;
+  margin: 4px;
+  opacity: 1;
+}
+
+.notify-item.success {
+  /* background-color: rgba(56, 58, 55, 0.9); */
+  /* box-shadow: 0 0 10px 0 rgb(15, 15, 15); */
+}
+
+.notify-item.error {
+  background-color: rgba(203, 100, 94, 0.8);
+}
+
+.notify-item.info {
+  background-color: rgba(33, 150, 243, 0.8);
+}
+
+/*.notify-title {
+  font-weight: 700;
+}*/
+
+.Modal {
+  position: absolute;
+  z-index: 110;
+  left:50%;
+  top:50%;
+  border-radius:20px;
+  color:#fff;
+  text-align: center;
+  font-family: "AmericanTypewriterRegular", Arial, Helvetica, sans-serif;
+  margin-top:-110px;
+  margin-left:-190px;
+  padding:20px;
+  width:380px;
+  height:220px;
+  box-shadow:0px 0px 50px rgba(255,255,255,0.7);
+  /* top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px; */
+  background-color: rgba(50,50,50,0.8);
+  color:rgb(183, 183, 183);
+  font-size:16px;
+}
+.Modal:focus {
+  outline:none !important;
+}
+.Modal h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.Modal p {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.Modal button {
+  background:#999;
+  padding:5px 10px;
+  color:#fff;
+  border-radius: 5px;
+  border:0px none;
+}
+.Overlay {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width:460px) {
+  .Modal {
+    width:280px;
+    padding:10px;
+    margin-left:-140px;
+  }
+}
+
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
